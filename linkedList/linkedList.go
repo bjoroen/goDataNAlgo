@@ -2,6 +2,3 @@ package linkedlist
 
 
 
-
-
-
