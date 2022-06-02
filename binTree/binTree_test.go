@@ -4,6 +4,7 @@ import (
 	"testing"
 )
 
+
 func TestConstructor(t *testing.T) {
 
 	tree := &Node{Key: 100}
