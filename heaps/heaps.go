@@ -25,6 +25,8 @@ func (h *MaxHeap) Extract() int {
 	h.array[0] = h.array[lastElement]
 	h.array = h.array[:lastElement]
 
+	h.maxHeapifyDown(0)
+
 	return extracted
 }
 
