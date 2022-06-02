@@ -59,3 +59,4 @@ func (l *linkedList) delteWithValue(value int) {
 	l.length--
 
 }
+ 
