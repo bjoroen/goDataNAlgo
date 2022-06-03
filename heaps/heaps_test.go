@@ -25,7 +25,7 @@ func TestHeapCreat(t *testing.T) {
 
 func TestHeapExtract(t *testing.T) {
 	m := &MaxHeap{}
-	buildHeap := []int{13, 2, 50, 100, 52, 23, 54, 23, 654, 32, 53}
+	buildHeap := []int{13, 2, 50, 100, 52, 21, 54, 23, 654, 32, 53}
 
 	for _, v := range buildHeap {
 		m.Insert(v)
